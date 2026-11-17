@@ -30,7 +30,7 @@ To update on 1.x, run the same command with the release tag and `-f`
 
 Then start opencode and run `/zest-login` in the chat.
 
-Full instructions: https://app.meetzest.com/docs/install/opencode
+Full instructions: https://meetzest.com/docs/plugins/opencode/
 
 ## What it captures
 
@@ -67,4 +67,4 @@ mirror and is regenerated on every release.
 Proprietary — see LICENSE.md. Third-party components included in this
 distribution are listed in THIRD-PARTY-NOTICES.md.
 
-Questions: hi@winding.ai
+Questions: support@winding.ai
