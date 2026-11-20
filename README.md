@@ -30,7 +30,7 @@ To update on 1.x, run the same command with the release tag and `-f`
 
 Then start opencode and run `/zest-login` in the chat.
 
-Full instructions: https://meetzest.com/docs/plugins/opencode/
+Full instructions: https://meetzest.com/docs/plugins/opencode/?utm_source=github.com&utm_medium=referral&utm_campaign=plugin-readme
 
 ## What it captures
 
