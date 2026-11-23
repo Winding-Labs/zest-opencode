@@ -1,6 +1,6 @@
 {
   "name": "zest-opencode",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Zest for opencode — track sessions for standups and workflow insights",
   "type": "module",
   "main": "./lib/server.js",
