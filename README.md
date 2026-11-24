@@ -8,7 +8,7 @@ no marketplace and no compiled runtime download.
 
 ## Install
 
-Works with opencode 2.x (`@opencode/cli`) and 1.18 or newer (`opencode-ai`).
+Works with opencode 2.x (`@opencode/cli`) and 1.17 or newer (`opencode-ai`).
 
 opencode 2.x:
 

@@ -1,6 +1,6 @@
 {
   "name": "zest-opencode",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Zest for opencode — track sessions for standups and workflow insights",
   "type": "module",
   "main": "./lib/server.js",
@@ -9,7 +9,7 @@
     "./server": "./lib/server.js"
   },
   "engines": {
-    "opencode": ">=1.18.0"
+    "opencode": ">=1.17.0"
   },
   "files": [
     "lib"
