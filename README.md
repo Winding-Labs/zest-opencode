@@ -17,16 +17,18 @@ opencode plugin add github:Winding-Labs/zest-opencode
 opencode service restart
 ```
 
-opencode checks plugins for updates daily; `opencode plugin update` applies them.
-
 opencode 1.x:
 
 ```bash
 opencode plugin zest-opencode@github:Winding-Labs/zest-opencode -g
 ```
 
-To update on 1.x, run the same command with the release tag and `-f`
-(`…zest-opencode#vX.Y.Z -g -f`) — 1.x never refetches an installed plugin.
+Zest updates itself: when a conversation starts after a release, it runs
+opencode's own update, one try a day
+(`opencode plugin update github:Winding-Labs/zest-opencode` on 2.x; on 1.x,
+which never refetches an installed plugin, the command above with the release
+tag and `-f`: `…zest-opencode#vX.Y.Z -g -f`). `ZEST_NO_AUTO_UPDATE=1` turns
+that off.
 
 Then start opencode and run `/zest-login` in the chat.
 
